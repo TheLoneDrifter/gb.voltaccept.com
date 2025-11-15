@@ -7,7 +7,7 @@
 "use strict";
 
 // User configurable.
-const ROM_FILENAME = "rom/no_cartridge.gb";
+const ROM_FILENAME = window.ROM_FILENAME || "rom/ERROR_ROM.gb";
 const ENABLE_REWIND = true;
 const ENABLE_PAUSE = false;
 const ENABLE_SWITCH_PALETTES = true;
