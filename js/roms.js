@@ -59,10 +59,6 @@ function initializeCartridge() {
     }
 }
 
-function init() {
-    initializeCartridge();
-}
-
 function cartridgeHTML(side = "front", rom = { name: "V01D", model: "DMG-TRPG-USA" }) {
     if (side === "front") {
         return `
@@ -107,4 +103,8 @@ function cartridgeHTML(side = "front", rom = { name: "V01D", model: "DMG-TRPG-US
               </div>`;
     }
     return '';
+}
+
+function init() {
+    initializeCartridge();
 }
