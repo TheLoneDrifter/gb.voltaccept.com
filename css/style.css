@@ -351,6 +351,7 @@ input.btn-hide {
 }
 
 .logo p {
+  transform: translateY(2.5px);
   font-family: 'Pretendo', sans-serif;
   text-align: center;
   font-weight: bold;
@@ -466,9 +467,10 @@ transform: translateX(15px);
   background: linear-gradient(#aaaaaa 0%, #bebebe 100%);
 }
 
-.logo p {
+.logo p.back {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
     Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 100;
   text-align: center;
   color: #ccc;
   transform: translateY(5px);
@@ -486,5 +488,5 @@ transform: translateX(15px);
   background-clip: text;
   -webkit-background-clip: text;
   font-style: normal;
-  transform: translateY(-100px);
+  transform: translateY(5px);
 }

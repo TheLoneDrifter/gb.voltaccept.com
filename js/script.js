@@ -8,7 +8,7 @@
 
 // User configurable.
 const ROM_FILENAME = window.ROM_FILENAME || "rom/ERROR_ROM.gb";
-const ENABLE_REWIND = true;
+const ENABLE_REWIND = false;
 const ENABLE_PAUSE = false;
 const ENABLE_SWITCH_PALETTES = true;
 const OSGP_DEADZONE = 0.1; // On screen gamepad deadzone range

@@ -97,7 +97,7 @@ function cartridgeHTML(side = "front", rom = { name: "V01D", model: "DMG-TRPG-US
                   <div class="part stripe back"></div>
                 </div>
               <div class="part logo back">
-                <p>MADE IN AMERICA</p>
+                <p class="back">MADE IN AMERICA</p>
                 <p class="patent">PAT. PEND</p>
               </div>
               </div>`;
