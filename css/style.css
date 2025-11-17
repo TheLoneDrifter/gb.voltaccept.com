@@ -322,7 +322,7 @@ input.btn-hide {
 
 .part_1 {
   width: 235px;
-  transform: translateY(7.5px);
+  transform: translateY(0.5px);
   border-radius: 5px 5px 0 0;
 }
 
@@ -438,7 +438,7 @@ input.btn-hide {
 }
 
 .part_1.back {
-transform: translateX(15px) translateY(7.5px);
+transform: translateX(15px) translateY(0.5px);
 }
 
 .stripe.back {
