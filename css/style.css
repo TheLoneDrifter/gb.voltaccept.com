@@ -79,7 +79,7 @@ input.btn-hide {
   top: 30px;
   margin-left: auto;
   margin-right: auto;
-  background: #bdae58;
+  background: #183442;
   width: 225px;
   height: 205px;
   box-shadow: inset 3px 3px rgba(0, 0, 0, 0.15);
@@ -322,6 +322,7 @@ input.btn-hide {
 
 .part_1 {
   width: 235px;
+  transform: translateY(7.5px);
   border-radius: 5px 5px 0 0;
 }
 
@@ -437,7 +438,7 @@ input.btn-hide {
 }
 
 .part_1.back {
-transform: translateX(15px);
+transform: translateX(15px) translateY(7.5px);
 }
 
 .stripe.back {
